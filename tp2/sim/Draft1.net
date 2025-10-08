@@ -1,0 +1,15 @@
+* C:\users\vito\Documents\facu\4y\2Q\E4\tps\tp2\sim\Draft1.asc
+V1 N001 0 10
+L1 N001 N002 1µ
+XU1 s 0 Square Vpp=10 Freq=100k Voff=5 DC=0.5 trise=1n tfall=1n Nper=1k
+S1 0 N002 s 0 MYSW
+C1 N003 0 500p
+R1 N003 N002 58k
+D1 N002 N003 MUR460
+.model D D
+.lib C:\users\vito\AppData\Local\LTspice\lib\cmp\standard.dio
+.tran 0 2m 10u
+.model MYSW SW(Roff=1G Ron=25u Vt=0.1 Vh=0.1)
+.lib TCLib/square.lib
+.backanno
+.end

@@ -1,0 +1,45 @@
+* C:\users\vito\Documents\facu\4y\2Q\E4\tps\tp2\sim\Flyback.asc
+Q1 N013 N017 0 0 BC547C
+Q2 0 N013 N014 0 2N2907
+Q3 N006 N013 N014 0 2N2222
+V1 N016 0 PULSE(0 5 0 1n 1n {D*T} {T})
+R2 N016 N017 470
+C1 N016 N017 1n
+R3 N006 N013 1k
+C2 N006 0 1µ
+R4 N014 N015 22
+M1 N011 N015 0 0 STW11NM80
+V2 N004 0 300
+D1 N001 N003 MUR460
+V3 N006 0 15
+C3 N003 N005 10µ
+R6 N003 N005 4
+L1 N011 N007 1570µ
+L2 N001 N005 9µ621
+D2 N008 N010 MUR460
+C4 N010 0 10µ
+R7 N010 0 20
+L3 N008 0 16µ464
+C5 N012 0 200p
+D4 N011 N012 MUR460
+R1 N011 N012 60k
+Ld N004 N007 1µ
+C6 N002 N003 120p
+R5 N002 N001 100
+C8 N009 N010 120p
+R8 N009 N008 100
+R9 N005 0 1Meg
+C7 N005 0 1n
+.model D D
+.lib C:\users\vito\AppData\Local\LTspice\lib\cmp\standard.dio
+.model NPN NPN
+.model PNP PNP
+.lib C:\users\vito\AppData\Local\LTspice\lib\cmp\standard.bjt
+.model NMOS NMOS
+.model PMOS PMOS
+.lib C:\users\vito\AppData\Local\LTspice\lib\cmp\standard.mos
+.param f=100k D=0.65 T=1/f
+.tran 0 1m 0 10n
+K1 L1 L2 L3 1
+.backanno
+.end
