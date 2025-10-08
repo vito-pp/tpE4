@@ -2534,211 +2534,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Transistor_BJT:BC547"
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "Q"
-				(at 5.08 1.905 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "BC547"
-				(at 5.08 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
-				(at 5.08 -1.905 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(italic yes)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://www.onsemi.com/pub/Collateral/BC550-D.pdf"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Description" "0.1A Ic, 45V Vce, Small Signal NPN Transistor, TO-92"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "NPN Transistor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "TO?92*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "BC547_0_1"
-				(polyline
-					(pts
-						(xy -2.54 0) (xy 0.635 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.635 1.905) (xy 0.635 -1.905)
-					)
-					(stroke
-						(width 0.508)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 1.27 0)
-					(radius 2.8194)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "BC547_1_1"
-				(polyline
-					(pts
-						(xy 0.635 0.635) (xy 2.54 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.635 -0.635) (xy 2.54 -2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 -1.778) (xy 1.778 -1.27) (xy 2.286 -2.286) (xy 1.27 -1.778)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(pin input line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "B"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 5.08 270)
-					(length 2.54)
-					(name "C"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 -5.08 90)
-					(length 2.54)
-					(name "E"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Transistor_FET:IRF540N"
 			(pin_names
 				(hide yes)
@@ -3839,18 +3634,6 @@
 		(uuid "0f20e754-8c0f-4875-822a-5cee207c0430")
 	)
 	(junction
-		(at 151.13 148.59)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "10588a38-0145-47ac-bf9e-29b945d86155")
-	)
-	(junction
-		(at 64.77 121.92)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "14d5fe52-69cd-4db2-ae59-1b564999ac6c")
-	)
-	(junction
 		(at 64.77 92.71)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3905,12 +3688,6 @@
 		(uuid "3bce0b2e-0c48-4a2f-af15-789f58bbc9b2")
 	)
 	(junction
-		(at 151.13 146.05)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "3cebecf9-e061-432a-bb7a-102631cc88ed")
-	)
-	(junction
 		(at 185.42 105.41)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3927,6 +3704,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "42c9c388-648b-4d22-9960-40bf2522f6cb")
+	)
+	(junction
+		(at 151.13 148.59)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4a2a50da-dd68-4639-9ed6-17c7c02bba47")
 	)
 	(junction
 		(at 35.56 172.72)
@@ -4103,8 +3886,8 @@
 		(uuid "f0196639-8552-4e29-a377-b9982e18f0ea")
 	)
 	(no_connect
-		(at 144.78 158.75)
-		(uuid "44babc9d-6dc2-41da-9e0f-47ecfdc9e03d")
+		(at 144.78 151.13)
+		(uuid "b384a5ec-286d-4a24-b6b9-fafa7722e275")
 	)
 	(wire
 		(pts
@@ -4158,16 +3941,6 @@
 	)
 	(wire
 		(pts
-			(xy 64.77 92.71) (xy 64.77 105.41)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "04687fe5-b1a7-420e-8f98-abefa2b8dc06")
-	)
-	(wire
-		(pts
 			(xy 27.94 121.92) (xy 27.94 124.46)
 		)
 		(stroke
@@ -4175,16 +3948,6 @@
 			(type default)
 		)
 		(uuid "08122c8f-47cb-403a-9846-05eb98668504")
-	)
-	(wire
-		(pts
-			(xy 151.13 146.05) (xy 144.78 146.05)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "08376828-c937-457b-8e69-a7ebc90e4b0c")
 	)
 	(wire
 		(pts
@@ -4318,6 +4081,16 @@
 	)
 	(wire
 		(pts
+			(xy 151.13 148.59) (xy 151.13 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "208ffb96-fce4-4f5b-9883-18137538873b")
+	)
+	(wire
+		(pts
 			(xy 226.06 85.09) (xy 226.06 93.98)
 		)
 		(stroke
@@ -4358,7 +4131,7 @@
 	)
 	(wire
 		(pts
-			(xy 53.34 110.49) (xy 57.15 110.49)
+			(xy 53.34 110.49) (xy 64.77 110.49)
 		)
 		(stroke
 			(width 0)
@@ -4395,16 +4168,6 @@
 			(type default)
 		)
 		(uuid "26a939a3-f9fd-462d-a7a8-8be5cde4b049")
-	)
-	(wire
-		(pts
-			(xy 144.78 148.59) (xy 151.13 148.59)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "299bb75e-97f6-46d7-87da-ef853bc5bf71")
 	)
 	(wire
 		(pts
@@ -4505,6 +4268,16 @@
 			(type default)
 		)
 		(uuid "3a30235f-7a00-4b93-aaf1-36adc1db3102")
+	)
+	(wire
+		(pts
+			(xy 144.78 148.59) (xy 151.13 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3b7db9e1-bfa6-4664-a699-2bc4ea2ba70b")
 	)
 	(wire
 		(pts
@@ -4618,6 +4391,16 @@
 	)
 	(wire
 		(pts
+			(xy 210.82 27.94) (xy 228.6 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "497902e1-b22f-4446-b853-0e92496df51e")
+	)
+	(wire
+		(pts
 			(xy 213.36 97.79) (xy 226.06 97.79)
 		)
 		(stroke
@@ -4675,16 +4458,6 @@
 			(type default)
 		)
 		(uuid "510eca19-da93-489c-ae50-138df251caba")
-	)
-	(wire
-		(pts
-			(xy 64.77 121.92) (xy 81.28 121.92)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "517533b5-1ee3-4e17-aa49-9c06affcf0b0")
 	)
 	(wire
 		(pts
@@ -4805,16 +4578,6 @@
 			(type default)
 		)
 		(uuid "65aa0397-7f4f-41a3-a200-39f4514814d7")
-	)
-	(wire
-		(pts
-			(xy 64.77 115.57) (xy 64.77 121.92)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "673eae69-1855-4649-8601-bc4ee5ae7a01")
 	)
 	(wire
 		(pts
@@ -5048,16 +4811,6 @@
 	)
 	(wire
 		(pts
-			(xy 151.13 148.59) (xy 151.13 146.05)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "877d4ff2-9144-4082-a210-15f31133f2c6")
-	)
-	(wire
-		(pts
 			(xy 43.18 110.49) (xy 44.45 110.49)
 		)
 		(stroke
@@ -5138,6 +4891,16 @@
 	)
 	(wire
 		(pts
+			(xy 151.13 148.59) (xy 160.02 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9578b7a5-0e64-4f13-8242-5292a8964d0f")
+	)
+	(wire
+		(pts
 			(xy 187.96 119.38) (xy 187.96 129.54)
 		)
 		(stroke
@@ -5188,7 +4951,7 @@
 	)
 	(wire
 		(pts
-			(xy 153.67 146.05) (xy 151.13 146.05)
+			(xy 144.78 146.05) (xy 160.02 146.05)
 		)
 		(stroke
 			(width 0)
@@ -5208,7 +4971,7 @@
 	)
 	(wire
 		(pts
-			(xy 27.94 121.92) (xy 64.77 121.92)
+			(xy 27.94 121.92) (xy 81.28 121.92)
 		)
 		(stroke
 			(width 0)
@@ -5348,6 +5111,16 @@
 	)
 	(wire
 		(pts
+			(xy 144.78 158.75) (xy 153.67 158.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "acac198f-4559-4065-aac2-2e494aabd2b6")
+	)
+	(wire
+		(pts
 			(xy 175.26 27.94) (xy 187.96 27.94)
 		)
 		(stroke
@@ -5438,16 +5211,6 @@
 	)
 	(wire
 		(pts
-			(xy 151.13 148.59) (xy 151.13 156.21)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b9f3c04f-db45-4ed0-952d-a1a5c68dad98")
-	)
-	(wire
-		(pts
 			(xy 114.3 97.79) (xy 114.3 121.92)
 		)
 		(stroke
@@ -5455,6 +5218,16 @@
 			(type default)
 		)
 		(uuid "bfad045f-17e7-4f6e-84b2-e17b0a5389b0")
+	)
+	(wire
+		(pts
+			(xy 64.77 92.71) (xy 64.77 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c2be524e-7ec2-40e9-80ef-5ad922962ae5")
 	)
 	(wire
 		(pts
@@ -5618,6 +5391,16 @@
 	)
 	(wire
 		(pts
+			(xy 210.82 30.48) (xy 228.6 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e0395433-aa96-4db0-a5ad-d43954186640")
+	)
+	(wire
+		(pts
 			(xy 205.74 72.39) (xy 213.36 72.39)
 		)
 		(stroke
@@ -5778,16 +5561,6 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 151.13) (xy 165.1 151.13)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f6458628-793b-428f-a902-2a850d0813d1")
-	)
-	(wire
-		(pts
 			(xy 238.76 93.98) (xy 260.35 93.98)
 		)
 		(stroke
@@ -5868,28 +5641,6 @@
 			)
 		)
 	)
-	(global_label "Vcontrol"
-		(shape input)
-		(at 165.1 151.13 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "08b3a5a0-b1b2-4389-bc4b-121f4800711b")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 175.8865 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "Vref"
 		(shape input)
 		(at 153.67 161.29 0)
@@ -5903,6 +5654,28 @@
 		(uuid "3235b999-4724-4a13-9087-ef831561db50")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 160.3443 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "Vrealim"
+		(shape input)
+		(at 160.02 148.59 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "35b68f8d-9cbf-4321-a976-a2c0213d3805")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 170.0809 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5996,6 +5769,28 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "Vlinea"
+		(shape input)
+		(at 228.6 27.94 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "50bb7ae0-18b9-4ada-9e2f-c5645f59f254")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 237.3304 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -6132,6 +5927,28 @@
 			)
 		)
 	)
+	(global_label "Vneutro"
+		(shape input)
+		(at 228.6 30.48 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "9fdeb793-9acf-419b-a8ce-98ebc20af487")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 238.7213 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "Vlinea"
 		(shape input)
 		(at 31.75 21.59 180)
@@ -6154,31 +5971,9 @@
 			)
 		)
 	)
-	(global_label "Vrealim"
-		(shape input)
-		(at 53.34 148.59 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "c428317f-7c07-4a12-8268-9d001b048fd2")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 43.2791 148.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "Vref"
 		(shape input)
-		(at 153.67 146.05 0)
+		(at 160.02 146.05 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6188,7 +5983,7 @@
 		)
 		(uuid "cf1c8e82-a2f8-4161-bdd0-ed90aff57f10")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 160.3443 146.05 0)
+			(at 166.6943 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6216,6 +6011,28 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "Vcontrol"
+		(shape input)
+		(at 153.67 158.75 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "e8bd94db-6a1f-46a4-b2aa-dfd4c9d3150a")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 164.4565 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -7306,6 +7123,74 @@
 			(project ""
 				(path "/e1bc5ebe-0245-4788-8a28-7e348d07e41a"
 					(reference "JP1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "TCLib:Terminal_2")
+		(at 208.28 29.21 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "40b3ab34-360c-4122-8ae4-bc216ad4197a")
+		(property "Reference" "J8"
+			(at 208.407 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Terminal_2"
+			(at 208.407 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "TCLib:Bornera_2_P5mm"
+			(at 207.772 24.892 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 208.28 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 208.28 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "87281cf5-3bae-4ae6-acd7-c7685fdb9ffe")
+		)
+		(pin "2"
+			(uuid "7ec083d4-5824-4dbb-802d-f513be0ebea4")
+		)
+		(instances
+			(project ""
+				(path "/e1bc5ebe-0245-4788-8a28-7e348d07e41a"
+					(reference "J8")
 					(unit 1)
 				)
 			)
@@ -9408,82 +9293,6 @@
 			(project ""
 				(path "/e1bc5ebe-0245-4788-8a28-7e348d07e41a"
 					(reference "R14")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Transistor_BJT:BC547")
-		(at 62.23 110.49 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b6530160-77c2-4f7f-bf5b-7fec96213da6")
-		(property "Reference" "Q4"
-			(at 67.31 109.2199 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "BC547"
-			(at 67.31 111.7599 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
-			(at 67.31 112.395 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/BC550-D.pdf"
-			(at 62.23 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "0.1A Ic, 45V Vce, Small Signal NPN Transistor, TO-92"
-			(at 62.23 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "00ce1de2-5bfa-44d7-92ef-a4bbe2e80968")
-		)
-		(pin "3"
-			(uuid "ecd86c93-7276-459d-bc01-a2542155c36b")
-		)
-		(pin "2"
-			(uuid "7104c71c-4278-49b7-866d-8b4896af0266")
-		)
-		(instances
-			(project ""
-				(path "/e1bc5ebe-0245-4788-8a28-7e348d07e41a"
-					(reference "Q4")
 					(unit 1)
 				)
 			)
