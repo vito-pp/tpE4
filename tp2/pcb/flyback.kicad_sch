@@ -5,6 +5,315 @@
 	(uuid "e1bc5ebe-0245-4788-8a28-7e348d07e41a")
 	(paper "A4")
 	(lib_symbols
+		(symbol "6A20G:6A20G"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at -5.08 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" "6A20G"
+				(at -5.08 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" "6A20G:DIOAD1950W125L885D700"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "MF" "Taiwan Semiconductor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MAXIMUM_PACKAGE_HEIGHT" "7.2 mm"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Package" "R-6 Taiwan Semiconductor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Price" "None"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Check_prices" "https://www.snapeda.com/parts/6A20G/taiwan/view-part/?ref=eda"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "STANDARD" "IPC-7351B"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "PARTREV" "F2104"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "SnapEDA_Link" "https://www.snapeda.com/parts/6A20G/taiwan/view-part/?ref=snap"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MP" "6A20G"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Description_1" "6A, 200V, Standard Rectifier"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Availability" "In Stock"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MANUFACTURER" "Taiwan Semiconductor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(symbol "6A20G_0_0"
+				(polyline
+					(pts
+						(xy -2.54 0) (xy -1.27 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 1.27) (xy -1.27 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 0) (xy -1.27 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -1.27) (xy 1.27 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 1.27) (xy 1.27 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy -1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy 1.27 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy 2.54 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "A"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "C"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Connector:Conn_01x08_Socket"
 			(pin_names
 				(offset 1.016)
@@ -708,174 +1017,6 @@
 					(at 0 -3.81 90)
 					(length 3.302)
 					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "Device:D"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "D"
-				(at 0 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "D"
-				(at 0 -2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Diode"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Sim.Device" "D"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Sim.Pins" "1=K 2=A"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "diode"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "TO-???* *_Diode_* *SingleDiode* D_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "D_0_1"
-				(polyline
-					(pts
-						(xy -1.27 1.27) (xy -1.27 -1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 0) (xy -1.27 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "D_1_1"
-				(pin passive line
-					(at -3.81 0 0)
-					(length 2.54)
-					(name "K"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 3.81 0 180)
-					(length 2.54)
-					(name "A"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1750,6 +1891,315 @@
 						(effects
 							(font
 								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "MUR460:MUR460"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at -5.08 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" "MUR460"
+				(at -5.08 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" "MUR460:DIOAD1990W125L900D530"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "MF" "Taiwan Semiconductor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MAXIMUM_PACKAGE_HEIGHT" "5.6 mm"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Package" "DO-201AD Taiwan Semiconductor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Price" "None"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Check_prices" "https://www.snapeda.com/parts/MUR460/taiwan/view-part/?ref=eda"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "STANDARD" "IPC-7351B"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "PARTREV" "K2105"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "SnapEDA_Link" "https://www.snapeda.com/parts/MUR460/taiwan/view-part/?ref=snap"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MP" "MUR460"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Description_1" "50ns, 4A, 600V, High Efficient Recovery Rectifier"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Availability" "In Stock"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MANUFACTURER" "Taiwan Semiconductor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(symbol "MUR460_0_0"
+				(polyline
+					(pts
+						(xy -2.54 0) (xy -1.27 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 1.27) (xy -1.27 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 0) (xy -1.27 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -1.27) (xy 1.27 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 1.27) (xy 1.27 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy -1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy 1.27 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy 2.54 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "A"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "C"
+						(effects
+							(font
+								(size 1.016 1.016)
 							)
 						)
 					)
@@ -3725,6 +4175,12 @@
 		(uuid "1f93df72-871c-40e9-8f4a-f695cbe18b67")
 	)
 	(junction
+		(at 114.3 72.39)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "202ccbdc-ce65-4d28-8778-57231ee320af")
+	)
+	(junction
 		(at 72.39 92.71)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3791,6 +4247,12 @@
 		(uuid "557eceeb-6aa0-43cb-ab01-5238b8752ebb")
 	)
 	(junction
+		(at 187.96 119.38)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5d8ce5f2-ef16-4795-8cf8-5ca6c251857c")
+	)
+	(junction
 		(at 213.36 96.52)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3807,12 +4269,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "73142a15-cfd8-4bcb-99b8-0dcdafd81213")
-	)
-	(junction
-		(at 114.3 72.39)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "7370b3f2-9248-4285-9c14-1c8f7c44e06c")
 	)
 	(junction
 		(at 238.76 119.38)
@@ -3887,12 +4343,6 @@
 		(uuid "b17d3293-c29f-4cf4-87ed-335c26ef2076")
 	)
 	(junction
-		(at 187.96 119.38)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b2c0eacd-06e2-4246-a644-e53daadb2073")
-	)
-	(junction
 		(at 81.28 92.71)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3926,7 +4376,7 @@
 		(at 187.96 72.39)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "e588b1d2-86a6-40ed-a06c-ec2cb135a2d4")
+		(uuid "e50d3fc7-0f59-4e4c-8e29-07c29d14348e")
 	)
 	(junction
 		(at 226.06 72.39)
@@ -3956,7 +4406,7 @@
 	)
 	(wire
 		(pts
-			(xy 187.96 129.54) (xy 187.96 119.38)
+			(xy 187.96 104.14) (xy 187.96 119.38)
 		)
 		(stroke
 			(width 0)
@@ -4026,6 +4476,16 @@
 	)
 	(wire
 		(pts
+			(xy 133.35 72.39) (xy 140.97 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0929a3b5-a082-48d3-a52d-26335e640b16")
+	)
+	(wire
+		(pts
 			(xy 213.36 62.23) (xy 213.36 72.39)
 		)
 		(stroke
@@ -4066,6 +4526,16 @@
 	)
 	(wire
 		(pts
+			(xy 187.96 119.38) (xy 196.85 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0e1aee2d-0cc4-4403-a522-75fd9e636794")
+	)
+	(wire
+		(pts
 			(xy 260.35 93.98) (xy 260.35 97.79)
 		)
 		(stroke
@@ -4076,13 +4546,13 @@
 	)
 	(wire
 		(pts
-			(xy 204.47 72.39) (xy 213.36 72.39)
+			(xy 187.96 72.39) (xy 195.58 72.39)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "12f2163d-a79a-44dd-b107-44c86b9e3704")
+		(uuid "10a4170f-b042-4bf8-b70d-849037edf180")
 	)
 	(wire
 		(pts
@@ -4256,16 +4726,6 @@
 	)
 	(wire
 		(pts
-			(xy 114.3 81.28) (xy 114.3 72.39)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "33dd84bd-b25c-4650-9adf-463898e01c58")
-	)
-	(wire
-		(pts
 			(xy 238.76 72.39) (xy 254 72.39)
 		)
 		(stroke
@@ -4366,16 +4826,6 @@
 	)
 	(wire
 		(pts
-			(xy 187.96 72.39) (xy 187.96 62.23)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "459523a8-51dd-43d1-9648-c2cb45bf8c24")
-	)
-	(wire
-		(pts
 			(xy 81.28 88.9) (xy 81.28 92.71)
 		)
 		(stroke
@@ -4423,6 +4873,16 @@
 			(type default)
 		)
 		(uuid "47909396-8b1f-4dab-b6c4-811ed66e1df3")
+	)
+	(wire
+		(pts
+			(xy 114.3 72.39) (xy 123.19 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "47e8d79b-8467-4d22-9222-88aa3b161c8a")
 	)
 	(wire
 		(pts
@@ -4516,7 +4976,7 @@
 	)
 	(wire
 		(pts
-			(xy 114.3 72.39) (xy 114.3 63.5)
+			(xy 114.3 63.5) (xy 114.3 72.39)
 		)
 		(stroke
 			(width 0)
@@ -4553,16 +5013,6 @@
 			(type default)
 		)
 		(uuid "5b7c8581-0c43-4396-943d-c2b0270d74a6")
-	)
-	(wire
-		(pts
-			(xy 187.96 72.39) (xy 196.85 72.39)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5b83b5ff-673f-4d4f-bbef-c6cb8ee02bfb")
 	)
 	(wire
 		(pts
@@ -4806,16 +5256,6 @@
 	)
 	(wire
 		(pts
-			(xy 187.96 72.39) (xy 187.96 86.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7f18d8e9-e230-4b64-846a-75321d16565c")
-	)
-	(wire
-		(pts
 			(xy 39.37 166.37) (xy 30.48 166.37)
 		)
 		(stroke
@@ -4843,6 +5283,16 @@
 			(type default)
 		)
 		(uuid "84e4ea90-fa8a-4617-ac08-87008e687ad4")
+	)
+	(wire
+		(pts
+			(xy 114.3 72.39) (xy 114.3 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "86f7fc8e-c561-4eaf-b2a2-e051b96c10af")
 	)
 	(wire
 		(pts
@@ -4933,6 +5383,16 @@
 			(type default)
 		)
 		(uuid "9544d00d-1045-4632-8c3b-3851ccb5d547")
+	)
+	(wire
+		(pts
+			(xy 187.96 119.38) (xy 187.96 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "95c836f7-6540-489d-b100-c1b8d8ec982e")
 	)
 	(wire
 		(pts
@@ -5056,16 +5516,6 @@
 	)
 	(wire
 		(pts
-			(xy 114.3 72.39) (xy 124.46 72.39)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a493f779-143d-4fb7-9c3e-617d3f320c9e")
-	)
-	(wire
-		(pts
 			(xy 105.41 33.02) (xy 116.84 33.02)
 		)
 		(stroke
@@ -5136,6 +5586,16 @@
 	)
 	(wire
 		(pts
+			(xy 207.01 119.38) (xy 213.36 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b1f9bf22-8bf7-424c-867d-53051177b4ed")
+	)
+	(wire
+		(pts
 			(xy 144.78 153.67) (xy 166.37 153.67)
 		)
 		(stroke
@@ -5186,6 +5646,16 @@
 	)
 	(wire
 		(pts
+			(xy 187.96 72.39) (xy 187.96 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b803b8fa-8529-4906-8bce-1e3bb4d5b877")
+	)
+	(wire
+		(pts
 			(xy 213.36 96.52) (xy 213.36 104.14)
 		)
 		(stroke
@@ -5223,16 +5693,6 @@
 			(type default)
 		)
 		(uuid "c6a762a4-753c-4aec-9aa7-d04e74e2e465")
-	)
-	(wire
-		(pts
-			(xy 213.36 119.38) (xy 205.74 119.38)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c7194f25-3c6f-426d-b3dc-05216cac1b21")
 	)
 	(wire
 		(pts
@@ -5356,6 +5816,26 @@
 	)
 	(wire
 		(pts
+			(xy 187.96 62.23) (xy 187.96 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ddfb8cd0-1786-4b57-a86a-641832e59b57")
+	)
+	(wire
+		(pts
+			(xy 205.74 72.39) (xy 213.36 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e1054f4c-0b27-4602-a845-d2636a82363d")
+	)
+	(wire
+		(pts
 			(xy 72.39 102.87) (xy 73.66 102.87)
 		)
 		(stroke
@@ -5413,16 +5893,6 @@
 			(type default)
 		)
 		(uuid "e6145b9c-d2d4-4a58-845b-78de42d06d37")
-	)
-	(wire
-		(pts
-			(xy 198.12 119.38) (xy 187.96 119.38)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e64dd9df-8b8c-41ce-ae9a-13e37de76945")
 	)
 	(wire
 		(pts
@@ -5486,16 +5956,6 @@
 	)
 	(wire
 		(pts
-			(xy 187.96 104.14) (xy 187.96 119.38)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ef3665ac-ba73-4450-9046-38ecfa4711a8")
-	)
-	(wire
-		(pts
 			(xy 48.26 33.02) (xy 54.61 33.02)
 		)
 		(stroke
@@ -5533,16 +5993,6 @@
 			(type default)
 		)
 		(uuid "f8939f62-bfc9-428b-a870-40bad449d2b1")
-	)
-	(wire
-		(pts
-			(xy 132.08 72.39) (xy 140.97 72.39)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f8b98195-c43a-4eff-92b2-f806d7bc01ad")
 	)
 	(wire
 		(pts
@@ -6167,7 +6617,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TCLib:R_0.125W"
 			(at 46.99 157.988 90)
 			(effects
 				(font
@@ -6237,7 +6687,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TCLib:CP_2.50mm"
 			(at 213.36 107.95 0)
 			(effects
 				(font
@@ -6449,7 +6899,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TCLib:R_0.125W"
 			(at 236.982 78.74 90)
 			(effects
 				(font
@@ -6581,7 +7031,7 @@
 				)
 			)
 		)
-		(property "Footprint" "TCLib:R_0.25W"
+		(property "Footprint" "TCLib:R_0.125W"
 			(at 164.338 137.16 90)
 			(do_not_autoplace yes)
 			(effects
@@ -6641,7 +7091,7 @@
 				)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "1n"
 			(at 27.178 154.686 90)
 			(effects
 				(font
@@ -6719,7 +7169,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_THT:LED_D1.8mm_W3.3mm_H2.4mm"
 			(at 238.76 86.36 0)
 			(effects
 				(font
@@ -6863,7 +7313,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1k"
+		(property "Value" "1k-0.25W"
 			(at 67.31 78.7399 0)
 			(effects
 				(font
@@ -6872,7 +7322,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TCLib:R_0.25W"
 			(at 62.992 77.47 90)
 			(effects
 				(font
@@ -7137,7 +7587,7 @@
 				)
 			)
 		)
-		(property "Value" "470"
+		(property "Value" "470-0.125W"
 			(at 48.006 116.078 90)
 			(effects
 				(font
@@ -7145,7 +7595,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TCLib:R_0.125W"
 			(at 48.26 112.268 90)
 			(effects
 				(font
@@ -7282,7 +7732,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TCLib:R_0.125W"
 			(at 147.32 163.068 90)
 			(effects
 				(font
@@ -7473,7 +7923,7 @@
 				)
 			)
 		)
-		(property "Value" "120k"
+		(property "Value" "120k-0.125W-800V"
 			(at 128.524 87.122 90)
 			(effects
 				(font
@@ -7481,7 +7931,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TCLib:R_0.125W"
 			(at 128.27 83.058 90)
 			(effects
 				(font
@@ -7548,7 +7998,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TCLib:R_0.125W"
 			(at 43.18 168.148 90)
 			(effects
 				(font
@@ -7664,10 +8114,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "7444fd13-e815-4150-bec4-523947c7a43f")
 		(property "Reference" "C3"
-			(at 144.78 91.4399 0)
+			(at 134.62 94.234 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7675,8 +8124,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "22p"
-			(at 144.78 93.9799 0)
+		(property "Value" "22p-800V"
+			(at 134.62 96.774 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7684,7 +8133,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TCLib:C_2.5mm"
 			(at 141.9352 96.52 0)
 			(effects
 				(font
@@ -7892,7 +8341,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TCLib:R_0.125W"
 			(at 49.022 172.72 90)
 			(effects
 				(font
@@ -7962,7 +8411,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TCLib:R_0.125W"
 			(at 236.982 113.03 90)
 			(effects
 				(font
@@ -8073,91 +8522,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:D")
-		(at 128.27 72.39 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "8cbaa704-6c90-4f78-a817-b4e0ec24e96d")
-		(property "Reference" "D6"
-			(at 128.27 75.692 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "D"
-			(at 128.27 78.232 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 128.27 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 128.27 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Diode"
-			(at 128.27 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 128.27 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 128.27 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "936e4503-620e-4393-a140-fbbf130e6cd1")
-		)
-		(pin "2"
-			(uuid "baa38db9-3f6b-43d0-8cbf-0977af1adc9f")
-		)
-		(instances
-			(project ""
-				(path "/e1bc5ebe-0245-4788-8a28-7e348d07e41a"
-					(reference "D6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 88.9 44.45 0)
 		(unit 1)
@@ -8224,6 +8588,195 @@
 		)
 	)
 	(symbol
+		(lib_id "MUR460:MUR460")
+		(at 128.27 72.39 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "937f45d7-facf-4bac-8563-3fe7d8e7fba3")
+		(property "Reference" "D6"
+			(at 128.27 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MUR460"
+			(at 128.27 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "MUR460:DIOAD1990W125L900D530"
+			(at 128.27 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 128.27 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 128.27 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" "Taiwan Semiconductor"
+			(at 128.27 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "5.6 mm"
+			(at 128.27 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Package" "DO-201AD Taiwan Semiconductor"
+			(at 128.27 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Price" "None"
+			(at 128.27 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/MUR460/taiwan/view-part/?ref=eda"
+			(at 128.27 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" "IPC-7351B"
+			(at 128.27 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" "K2105"
+			(at 128.27 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/MUR460/taiwan/view-part/?ref=snap"
+			(at 128.27 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MP" "MUR460"
+			(at 128.27 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "50ns, 4A, 600V, High Efficient Recovery Rectifier"
+			(at 128.27 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 128.27 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "Taiwan Semiconductor"
+			(at 128.27 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "C"
+			(uuid "1e4a76a8-4186-4246-a75d-e606354ae76b")
+		)
+		(pin "A"
+			(uuid "a0827f7f-0468-40a9-9441-265e4457f1cb")
+		)
+		(instances
+			(project ""
+				(path "/e1bc5ebe-0245-4788-8a28-7e348d07e41a"
+					(reference "D6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:LED")
 		(at 238.76 104.14 270)
 		(unit 1)
@@ -8251,7 +8804,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_THT:LED_D1.8mm_W3.3mm_H2.4mm"
 			(at 238.76 104.14 0)
 			(effects
 				(font
@@ -8297,92 +8850,6 @@
 			(project ""
 				(path "/e1bc5ebe-0245-4788-8a28-7e348d07e41a"
 					(reference "D3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:D")
-		(at 201.93 119.38 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "9e6d4c87-97e0-427c-a7db-0d896643fd67")
-		(property "Reference" "D5"
-			(at 201.93 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "D"
-			(at 201.93 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 201.93 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 201.93 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Diode"
-			(at 201.93 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 201.93 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 201.93 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "f159c4a3-d6c0-4dc5-aaf5-fb82f8b158ba")
-		)
-		(pin "2"
-			(uuid "d8a50743-3325-4b00-aed2-d8fbd49cac8a")
-		)
-		(instances
-			(project ""
-				(path "/e1bc5ebe-0245-4788-8a28-7e348d07e41a"
-					(reference "D5")
 					(unit 1)
 				)
 			)
@@ -8618,7 +9085,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TCLib:C_2.5mm"
 			(at 52.07 103.1748 0)
 			(effects
 				(font
@@ -8753,7 +9220,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TCLib:R_0.125W"
 			(at 29.972 177.8 90)
 			(effects
 				(font
@@ -9272,7 +9739,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:CP_Radial_D4.0mm_P1.50mm"
+		(property "Footprint" "TCLib:CP_5.00mm"
 			(at 76.2 39.37 0)
 			(effects
 				(font
@@ -9331,7 +9798,7 @@
 				)
 			)
 		)
-		(property "Value" "22"
+		(property "Value" "22-0.125W"
 			(at 97.79 95.758 90)
 			(effects
 				(font
@@ -9339,7 +9806,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TCLib:R_0.125W"
 			(at 97.79 94.488 90)
 			(effects
 				(font
@@ -9481,7 +9948,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TCLib:R_0.125W"
 			(at 37.592 177.8 90)
 			(effects
 				(font
@@ -9551,7 +10018,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TCLib:CP_2.50mm"
 			(at 213.36 81.28 0)
 			(effects
 				(font
@@ -9588,6 +10055,195 @@
 			(project ""
 				(path "/e1bc5ebe-0245-4788-8a28-7e348d07e41a"
 					(reference "C1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "6A20G:6A20G")
+		(at 201.93 119.38 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e9aff36f-8124-4959-82b9-f375aadd90d0")
+		(property "Reference" "D5"
+			(at 201.93 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "6A20G"
+			(at 201.93 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "6A20G:DIOAD1950W125L885D700"
+			(at 201.93 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 201.93 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 201.93 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" "Taiwan Semiconductor"
+			(at 201.93 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "7.2 mm"
+			(at 201.93 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Package" "R-6 Taiwan Semiconductor"
+			(at 201.93 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Price" "None"
+			(at 201.93 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/6A20G/taiwan/view-part/?ref=eda"
+			(at 201.93 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" "IPC-7351B"
+			(at 201.93 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" "F2104"
+			(at 201.93 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/6A20G/taiwan/view-part/?ref=snap"
+			(at 201.93 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MP" "6A20G"
+			(at 201.93 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "6A, 200V, Standard Rectifier"
+			(at 201.93 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 201.93 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "Taiwan Semiconductor"
+			(at 201.93 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "C"
+			(uuid "5bcace6c-cbaf-4f95-a7c3-f35a0381918e")
+		)
+		(pin "A"
+			(uuid "33c23d1f-17ec-48e4-814b-361f15d9925c")
+		)
+		(instances
+			(project ""
+				(path "/e1bc5ebe-0245-4788-8a28-7e348d07e41a"
+					(reference "D5")
 					(unit 1)
 				)
 			)
@@ -9686,7 +10342,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TCLib:C_2.5mm"
 			(at 35.2552 74.93 0)
 			(effects
 				(font
@@ -9892,7 +10548,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TCLib:C_2.5mm"
 			(at 144.78 167.3352 0)
 			(effects
 				(font
@@ -10001,31 +10657,41 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:D")
-		(at 200.66 72.39 180)
+		(lib_id "6A20G:6A20G")
+		(at 200.66 72.39 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "f75c48e3-0743-4a68-9609-f8a42e5e5f3f")
+		(uuid "fde186ef-914b-4571-9713-7c900c5ec85b")
 		(property "Reference" "D2"
-			(at 201.422 77.216 0)
+			(at 200.406 75.692 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "6A20"
-			(at 201.422 79.756 0)
+		(property "Value" "6A20G"
+			(at 200.406 78.232 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "6A20G:DIOAD1950W125L885D700"
+			(at 200.66 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
 			(at 200.66 72.39 0)
 			(effects
 				(font
@@ -10034,7 +10700,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Description" ""
 			(at 200.66 72.39 0)
 			(effects
 				(font
@@ -10043,38 +10709,131 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Diode"
+		(property "MF" "Taiwan Semiconductor"
 			(at 200.66 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify bottom)
 				(hide yes)
 			)
 		)
-		(property "Sim.Device" "D"
+		(property "MAXIMUM_PACKAGE_HEIGHT" "7.2 mm"
 			(at 200.66 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify bottom)
 				(hide yes)
 			)
 		)
-		(property "Sim.Pins" "1=K 2=A"
+		(property "Package" "R-6 Taiwan Semiconductor"
 			(at 200.66 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify bottom)
 				(hide yes)
 			)
 		)
-		(pin "1"
-			(uuid "15149e6a-cf0d-4bbf-86f9-645651cb0ba5")
+		(property "Price" "None"
+			(at 200.66 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
 		)
-		(pin "2"
-			(uuid "48279c24-ad0a-4892-851b-3c9c2f60bf2c")
+		(property "Check_prices" "https://www.snapeda.com/parts/6A20G/taiwan/view-part/?ref=eda"
+			(at 200.66 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" "IPC-7351B"
+			(at 200.66 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" "F2104"
+			(at 200.66 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/6A20G/taiwan/view-part/?ref=snap"
+			(at 200.66 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MP" "6A20G"
+			(at 200.66 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "6A, 200V, Standard Rectifier"
+			(at 200.66 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 200.66 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "Taiwan Semiconductor"
+			(at 200.66 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "A"
+			(uuid "e239a08a-efb7-4511-8d71-4a3f9d9fa166")
+		)
+		(pin "C"
+			(uuid "68fd3db4-00c2-4a17-bb89-4eb21b8242eb")
 		)
 		(instances
 			(project ""
