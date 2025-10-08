@@ -2375,6 +2375,165 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "TCLib:Terminal_2"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at -7.874 -2.032 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Terminal_2"
+				(at -0.254 -3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "TCLib:Bornera_2_P5mm"
+				(at -0.508 4.318 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Terminal_2_0_1"
+				(polyline
+					(pts
+						(xy -1.524 1.778) (xy -0.762 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.524 -1.778) (xy -1.524 1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.524 -1.778) (xy -0.762 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.762 2.54) (xy 1.778 2.54) (xy 1.778 -2.54) (xy -0.762 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0 -1.27)
+					(radius 0.6404)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0.002 1.267)
+					(radius 0.6404)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Terminal_2_1_1"
+				(pin passive line
+					(at 2.54 1.27 180)
+					(length 3.175)
+					(name "2"
+						(effects
+							(font
+								(size 0.635 0.635)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 0.635 0.635)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 -1.27 180)
+					(length 3.175)
+					(name "1"
+						(effects
+							(font
+								(size 0.635 0.635)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 0.635 0.635)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Transistor_BJT:BC547"
 			(pin_names
 				(offset 0)
@@ -3680,6 +3839,12 @@
 		(uuid "0f20e754-8c0f-4875-822a-5cee207c0430")
 	)
 	(junction
+		(at 151.13 148.59)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "10588a38-0145-47ac-bf9e-29b945d86155")
+	)
+	(junction
 		(at 64.77 121.92)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4323,7 +4488,7 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 156.21) (xy 168.91 156.21)
+			(xy 144.78 156.21) (xy 151.13 156.21)
 		)
 		(stroke
 			(width 0)
@@ -4753,6 +4918,16 @@
 	)
 	(wire
 		(pts
+			(xy 175.26 30.48) (xy 187.96 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "73286581-4766-458f-9edc-68869039efb2")
+	)
+	(wire
+		(pts
 			(xy 254 97.79) (xy 254 101.6)
 		)
 		(stroke
@@ -4983,6 +5158,16 @@
 	)
 	(wire
 		(pts
+			(xy 187.96 30.48) (xy 187.96 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "97d5029b-8c95-48c9-99d9-eebb08291662")
+	)
+	(wire
+		(pts
 			(xy 35.56 182.88) (xy 35.56 184.15)
 		)
 		(stroke
@@ -5163,6 +5348,16 @@
 	)
 	(wire
 		(pts
+			(xy 175.26 27.94) (xy 187.96 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "af0c14cf-07dc-4b40-96cb-46986c6bf5bd")
+	)
+	(wire
+		(pts
 			(xy 226.06 97.79) (xy 226.06 104.14)
 		)
 		(stroke
@@ -5240,6 +5435,16 @@
 			(type default)
 		)
 		(uuid "b803b8fa-8529-4906-8bce-1e3bb4d5b877")
+	)
+	(wire
+		(pts
+			(xy 151.13 148.59) (xy 151.13 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b9f3c04f-db45-4ed0-952d-a1a5c68dad98")
 	)
 	(wire
 		(pts
@@ -5795,6 +6000,28 @@
 			)
 		)
 	)
+	(global_label "16V"
+		(shape input)
+		(at 187.96 27.94 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "6687d772-2407-4c36-9596-3bce46d17c28")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 194.4528 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "Vout"
 		(shape input)
 		(at 254 72.39 0)
@@ -5989,28 +6216,6 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "16V"
-		(shape input)
-		(at 168.91 156.21 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "fbfc369c-eaa7-47e3-881b-169ddf3ba1d4")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 175.4028 156.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
 				(hide yes)
 			)
 		)
@@ -6675,6 +6880,74 @@
 			(project ""
 				(path "/e1bc5ebe-0245-4788-8a28-7e348d07e41a"
 					(reference "R15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "TCLib:Terminal_2")
+		(at 172.72 29.21 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "22f147cb-d22f-447a-845c-d3b7cdf9c6e0")
+		(property "Reference" "J7"
+			(at 172.847 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Terminal_2"
+			(at 172.847 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "TCLib:Bornera_2_P5mm"
+			(at 172.212 24.892 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 172.72 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 172.72 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "1ea29584-14aa-4bbc-8075-c78a9637d92b")
+		)
+		(pin "1"
+			(uuid "1bee926a-c5ac-4813-b5ab-721394681a71")
+		)
+		(instances
+			(project ""
+				(path "/e1bc5ebe-0245-4788-8a28-7e348d07e41a"
+					(reference "J7")
 					(unit 1)
 				)
 			)
@@ -9277,6 +9550,72 @@
 			(project ""
 				(path "/e1bc5ebe-0245-4788-8a28-7e348d07e41a"
 					(reference "#PWR012")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 187.96 35.56 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cedd4a4f-9bbd-4c01-a3d8-7fbbf5d55b23")
+		(property "Reference" "#PWR013"
+			(at 187.96 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 187.96 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 187.96 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 187.96 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 187.96 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "bc8665ae-19ed-42cd-9922-49b94d545837")
+		)
+		(instances
+			(project ""
+				(path "/e1bc5ebe-0245-4788-8a28-7e348d07e41a"
+					(reference "#PWR013")
 					(unit 1)
 				)
 			)
