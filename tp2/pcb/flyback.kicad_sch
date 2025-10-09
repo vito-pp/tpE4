@@ -1181,157 +1181,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Jumper:Jumper_2_Bridged"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "JP"
-				(at 0 1.905 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "Jumper_2_Bridged"
-				(at 0 -2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Jumper, 2-pole, closed/bridged"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "Jumper SPST"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "Jumper* TestPoint*2Pads* TestPoint*Bridge*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Jumper_2_Bridged_0_0"
-				(circle
-					(center -2.032 0)
-					(radius 0.508)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 2.032 0)
-					(radius 0.508)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "Jumper_2_Bridged_0_1"
-				(arc
-					(start -1.524 0.254)
-					(mid 0 0.762)
-					(end 1.524 0.254)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "Jumper_2_Bridged_1_1"
-				(pin passive line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 0 180)
-					(length 2.54)
-					(name "B"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "MUR460:MUR460"
+		(symbol "MUR160:MUR160"
 			(pin_names
 				(offset 1.016)
 			)
@@ -1347,7 +1197,7 @@
 					(justify left bottom)
 				)
 			)
-			(property "Value" "MUR460"
+			(property "Value" "MUR160"
 				(at -5.08 -3.81 0)
 				(effects
 					(font
@@ -1356,7 +1206,7 @@
 					(justify left bottom)
 				)
 			)
-			(property "Footprint" "MUR460:DIOAD1990W125L900D530"
+			(property "Footprint" "MUR160:DIOAD1300W80L670D310"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1394,7 +1244,7 @@
 					(hide yes)
 				)
 			)
-			(property "MAXIMUM_PACKAGE_HEIGHT" "5.6 mm"
+			(property "MAXIMUM_PACKAGE_HEIGHT" "3.6 mm"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1404,7 +1254,7 @@
 					(hide yes)
 				)
 			)
-			(property "Package" "DO-201AD Taiwan Semiconductor"
+			(property "Package" "DO-15 Taiwan Semiconductor"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1424,7 +1274,7 @@
 					(hide yes)
 				)
 			)
-			(property "Check_prices" "https://www.snapeda.com/parts/MUR460/taiwan/view-part/?ref=eda"
+			(property "Check_prices" "https://www.snapeda.com/parts/MUR160/taiwan/view-part/?ref=eda"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1444,7 +1294,7 @@
 					(hide yes)
 				)
 			)
-			(property "PARTREV" "K2105"
+			(property "PARTREV" "F2105"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1454,7 +1304,7 @@
 					(hide yes)
 				)
 			)
-			(property "SnapEDA_Link" "https://www.snapeda.com/parts/MUR460/taiwan/view-part/?ref=snap"
+			(property "SnapEDA_Link" "https://www.snapeda.com/parts/MUR160/taiwan/view-part/?ref=snap"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1464,7 +1314,7 @@
 					(hide yes)
 				)
 			)
-			(property "MP" "MUR460"
+			(property "MP" "MUR160"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1474,7 +1324,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description_1" "50ns, 4A, 600V, High Efficient Recovery Rectifier"
+			(property "Description_1" "50ns, 1A, 600V, High Efficient Recovery Rectifier"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1504,7 +1354,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "MUR460_0_0"
+			(symbol "MUR160_0_0"
 				(polyline
 					(pts
 						(xy -2.54 0) (xy -1.27 0)
@@ -3966,6 +3816,12 @@
 		(uuid "5d8ce5f2-ef16-4795-8cf8-5ca6c251857c")
 	)
 	(junction
+		(at 156.21 148.59)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6934aa9f-8a88-49da-9238-df479c630a78")
+	)
+	(junction
 		(at 53.34 110.49)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4110,6 +3966,12 @@
 		(uuid "ea328aec-2019-4d5e-9f58-d451787b74a6")
 	)
 	(junction
+		(at 163.83 153.67)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ed2e5861-3271-43f9-a95e-dc8d95d9e17a")
+	)
+	(junction
 		(at 81.28 121.92)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4121,7 +3983,7 @@
 	)
 	(wire
 		(pts
-			(xy 30.48 110.49) (xy 31.75 110.49)
+			(xy 30.48 110.49) (xy 34.29 110.49)
 		)
 		(stroke
 			(width 0)
@@ -4168,6 +4030,16 @@
 			(type default)
 		)
 		(uuid "045b31c9-cf41-4a31-a156-acb725042cc3")
+	)
+	(wire
+		(pts
+			(xy 36.83 110.49) (xy 43.18 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "074c26fc-a19c-4f9f-82fe-67afb95078b1")
 	)
 	(wire
 		(pts
@@ -4631,16 +4503,6 @@
 	)
 	(wire
 		(pts
-			(xy 41.91 110.49) (xy 43.18 110.49)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "47909396-8b1f-4dab-b6c4-811ed66e1df3")
-	)
-	(wire
-		(pts
 			(xy 114.3 72.39) (xy 123.19 72.39)
 		)
 		(stroke
@@ -4751,7 +4613,7 @@
 	)
 	(wire
 		(pts
-			(xy 69.85 33.02) (xy 73.66 33.02)
+			(xy 69.85 33.02) (xy 77.47 33.02)
 		)
 		(stroke
 			(width 0)
@@ -5221,13 +5083,23 @@
 	)
 	(wire
 		(pts
-			(xy 151.13 148.59) (xy 160.02 148.59)
+			(xy 151.13 148.59) (xy 156.21 148.59)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "9578b7a5-0e64-4f13-8242-5292a8964d0f")
+	)
+	(wire
+		(pts
+			(xy 156.21 148.59) (xy 167.64 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "95842ca9-bec0-49b9-956b-d61501274f2c")
 	)
 	(wire
 		(pts
@@ -5248,6 +5120,16 @@
 			(type default)
 		)
 		(uuid "964a1e14-4c40-4056-8b12-093feeb6b02f")
+	)
+	(wire
+		(pts
+			(xy 163.83 153.67) (xy 166.37 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "966a9d54-2965-4646-9b71-568ab58d6e6a")
 	)
 	(wire
 		(pts
@@ -5491,7 +5373,7 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 153.67) (xy 166.37 153.67)
+			(xy 144.78 153.67) (xy 163.83 153.67)
 		)
 		(stroke
 			(width 0)
@@ -5548,6 +5430,16 @@
 			(type default)
 		)
 		(uuid "b803b8fa-8529-4906-8bce-1e3bb4d5b877")
+	)
+	(wire
+		(pts
+			(xy 156.21 148.59) (xy 156.21 151.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bae56f03-0f5f-4485-90a1-755f9110500a")
 	)
 	(wire
 		(pts
@@ -5701,16 +5593,6 @@
 	)
 	(wire
 		(pts
-			(xy 83.82 33.02) (xy 91.44 33.02)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "dbc8ef94-e022-4086-8358-2ff867590236")
-	)
-	(wire
-		(pts
 			(xy 27.94 63.5) (xy 34.29 63.5)
 		)
 		(stroke
@@ -5738,6 +5620,16 @@
 			(type default)
 		)
 		(uuid "ddfb8cd0-1786-4b57-a86a-641832e59b57")
+	)
+	(wire
+		(pts
+			(xy 80.01 33.02) (xy 91.44 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "df131cdc-f54e-435f-85c6-9995f1dacfa9")
 	)
 	(wire
 		(pts
@@ -5961,6 +5853,16 @@
 	)
 	(wire
 		(pts
+			(xy 163.83 151.13) (xy 163.83 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fed046a7-d4f8-4e80-ab1e-5a6ca7d2f2bf")
+	)
+	(wire
+		(pts
 			(xy 31.75 182.88) (xy 31.75 181.61)
 		)
 		(stroke
@@ -6081,7 +5983,7 @@
 	)
 	(global_label "Vrealim"
 		(shape input)
-		(at 160.02 148.59 0)
+		(at 167.64 148.59 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6091,7 +5993,7 @@
 		)
 		(uuid "35b68f8d-9cbf-4321-a976-a2c0213d3805")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 170.0809 148.59 0)
+			(at 177.7009 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6516,6 +6418,265 @@
 				)
 				(justify left)
 				(hide yes)
+			)
+		)
+	)
+	(symbol
+		(lib_id "MUR160:MUR160")
+		(at 128.27 72.39 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0006bd1b-acd8-4b70-8dbd-af4457039aa3")
+		(property "Reference" "D6"
+			(at 128.27 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MUR160"
+			(at 128.27 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "MUR160:DIOAD1300W80L670D310"
+			(at 128.27 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 128.27 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 128.27 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" "Taiwan Semiconductor"
+			(at 128.27 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "3.6 mm"
+			(at 128.27 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Package" "DO-15 Taiwan Semiconductor"
+			(at 128.27 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Price" "None"
+			(at 128.27 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/MUR160/taiwan/view-part/?ref=eda"
+			(at 128.27 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" "IPC-7351B"
+			(at 128.27 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" "F2105"
+			(at 128.27 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/MUR160/taiwan/view-part/?ref=snap"
+			(at 128.27 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MP" "MUR160"
+			(at 128.27 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "50ns, 1A, 600V, High Efficient Recovery Rectifier"
+			(at 128.27 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 128.27 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "Taiwan Semiconductor"
+			(at 128.27 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "A"
+			(uuid "e6f7bba5-6913-4915-ab48-a8bc2e453402")
+		)
+		(pin "C"
+			(uuid "b1b07132-c721-4463-900f-25efa5c11b42")
+		)
+		(instances
+			(project ""
+				(path "/e1bc5ebe-0245-4788-8a28-7e348d07e41a"
+					(reference "D6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "TCLib:Connector_2")
+		(at 35.56 113.03 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "01e81c77-11e5-4460-ab01-c63172e94904")
+		(property "Reference" "J9"
+			(at 39.37 111.8869 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Connector_2"
+			(at 39.37 114.4269 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TCLib:PinHeader_1x02_P2.54mm_Vertical"
+			(at 39.878 112.522 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 35.56 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 35.56 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "251f97a2-2bed-42eb-9422-dde33d334745")
+		)
+		(pin "2"
+			(uuid "7b1ed129-cec6-4e57-a7f2-040eb141c845")
+		)
+		(instances
+			(project ""
+				(path "/e1bc5ebe-0245-4788-8a28-7e348d07e41a"
+					(reference "J9")
+					(unit 1)
+				)
 			)
 		)
 	)
@@ -7683,74 +7844,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Jumper:Jumper_2_Bridged")
-		(at 78.74 33.02 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "4044c17f-d2dc-40d5-9af8-80613fd90ea2")
-		(property "Reference" "JP1"
-			(at 78.74 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Jumper_2_Bridged"
-			(at 78.74 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Jumper:Jumper_Harwin_S1621_P10.9mm"
-			(at 78.74 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 78.74 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Jumper, 2-pole, closed/bridged"
-			(at 78.74 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "e6d18ae6-cee2-4d9f-b292-048818069162")
-		)
-		(pin "1"
-			(uuid "22b80a19-1298-441e-90b3-b807e4e3a7aa")
-		)
-		(instances
-			(project ""
-				(path "/e1bc5ebe-0245-4788-8a28-7e348d07e41a"
-					(reference "JP1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "TCLib:Terminal_2")
 		(at 208.28 29.21 0)
 		(unit 1)
@@ -7958,76 +8051,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 35.56 187.96 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "4f4840d8-31c3-4255-98c9-44a6f3c1d86f")
-		(property "Reference" "C12"
-			(at 39.37 186.6899 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "47p"
-			(at 39.37 189.2299 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TCLib:C_2.5mm"
-			(at 36.5252 191.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 35.56 187.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 35.56 187.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "c0ef07b0-8cfb-4b3c-b421-0d0b7dbd022c")
-		)
-		(pin "2"
-			(uuid "4816fb69-d287-4dc7-83ad-ec08eb97dc18")
-		)
-		(instances
-			(project ""
-				(path "/e1bc5ebe-0245-4788-8a28-7e348d07e41a"
-					(reference "C12")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 255.27 154.94 0)
 		(unit 1)
@@ -8088,74 +8111,6 @@
 			(project ""
 				(path "/e1bc5ebe-0245-4788-8a28-7e348d07e41a"
 					(reference "#PWR014")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Jumper:Jumper_2_Bridged")
-		(at 36.83 110.49 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "51b41e20-ebdd-42fb-823d-8034e40a0169")
-		(property "Reference" "Vdisp1"
-			(at 36.83 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Jumper_2_Bridged"
-			(at 36.83 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Jumper:Jumper_Harwin_S1621_P10.9mm"
-			(at 36.83 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 36.83 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Jumper, 2-pole, closed/bridged"
-			(at 36.83 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "4081e251-357b-4320-aee0-35a94be5026a")
-		)
-		(pin "1"
-			(uuid "08f9607b-0f22-45ae-a94c-b4b20d3ad9b3")
-		)
-		(instances
-			(project ""
-				(path "/e1bc5ebe-0245-4788-8a28-7e348d07e41a"
-					(reference "Vdisp1")
 					(unit 1)
 				)
 			)
@@ -8635,6 +8590,76 @@
 		)
 	)
 	(symbol
+		(lib_id "TCLib:Connector_2")
+		(at 78.74 35.56 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "67b2a3b4-f92a-410f-98b4-8d9d5ba1cc92")
+		(property "Reference" "J10"
+			(at 82.55 34.4169 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Connector_2"
+			(at 82.55 36.9569 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TCLib:PinHeader_1x02_P2.54mm_Vertical"
+			(at 83.058 35.052 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 78.74 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 78.74 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c8b45859-c973-477d-a28e-ab0a94994fe3")
+		)
+		(pin "2"
+			(uuid "e9c37b55-d5ab-4094-ad0e-926854a4cb73")
+		)
+		(instances
+			(project "flyback"
+				(path "/e1bc5ebe-0245-4788-8a28-7e348d07e41a"
+					(reference "J10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 43.18 166.37 90)
 		(unit 1)
@@ -8975,16 +9000,17 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 22.86 176.53 0)
+		(lib_id "TCLib:C")
+		(at 35.56 187.96 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "7b03c7c6-05d3-447c-b065-4e39235a993d")
-		(property "Reference" "C13"
-			(at 25.654 175.26 0)
+		(fields_autoplaced yes)
+		(uuid "7c2cf81a-194f-4013-b5f6-190bc2fe9abb")
+		(property "Reference" "C12"
+			(at 39.37 186.6899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8993,7 +9019,7 @@
 			)
 		)
 		(property "Value" "47p"
-			(at 25.654 177.8 0)
+			(at 39.37 189.2299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9001,8 +9027,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TCLib:C_2.5mm"
-			(at 23.8252 180.34 0)
+		(property "Footprint" "TCLib:C_5mm"
+			(at 19.05 184.658 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9011,7 +9037,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 22.86 176.53 0)
+			(at 35.56 187.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9020,7 +9046,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 22.86 176.53 0)
+			(at 18.288 180.086 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9029,15 +9055,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "43881057-4a93-450f-94ba-28e12bf57d2e")
+			(uuid "6971e8ae-15b7-45d4-8993-e4e206eef29e")
 		)
 		(pin "2"
-			(uuid "726ecaba-ddf3-4ae6-9fa9-282aa8049d69")
+			(uuid "cd8e755f-ceb6-40cc-871e-3155cf1ae9e0")
 		)
 		(instances
 			(project ""
 				(path "/e1bc5ebe-0245-4788-8a28-7e348d07e41a"
-					(reference "C13")
+					(reference "C12")
 					(unit 1)
 				)
 			)
@@ -9185,6 +9211,74 @@
 	)
 	(symbol
 		(lib_id "TCLib:C")
+		(at 160.02 151.13 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8276d02e-6db2-445c-b6a7-1decc0c8a65d")
+		(property "Reference" "C17"
+			(at 160.02 143.51 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100n"
+			(at 160.02 146.05 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "TCLib:C_2.5mm"
+			(at 163.322 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 160.02 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 167.894 133.858 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "b84b1a20-3676-4947-9635-755f37d878ad")
+		)
+		(pin "1"
+			(uuid "9f44e23e-a5ea-4326-a97f-ab57d5ad22f3")
+		)
+		(instances
+			(project ""
+				(path "/e1bc5ebe-0245-4788-8a28-7e348d07e41a"
+					(reference "C17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "TCLib:C")
 		(at 166.37 116.84 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -9312,195 +9406,6 @@
 			(project ""
 				(path "/e1bc5ebe-0245-4788-8a28-7e348d07e41a"
 					(reference "#PWR05")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "MUR460:MUR460")
-		(at 128.27 72.39 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "937f45d7-facf-4bac-8563-3fe7d8e7fba3")
-		(property "Reference" "D6"
-			(at 128.27 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "MUR460"
-			(at 128.27 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "MUR460(2):DIOAD1990W125L900D530"
-			(at 128.27 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 128.27 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 128.27 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MF" "Taiwan Semiconductor"
-			(at 128.27 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MAXIMUM_PACKAGE_HEIGHT" "5.6 mm"
-			(at 128.27 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Package" "DO-201AD Taiwan Semiconductor"
-			(at 128.27 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Price" "None"
-			(at 128.27 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Check_prices" "https://www.snapeda.com/parts/MUR460/taiwan/view-part/?ref=eda"
-			(at 128.27 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "STANDARD" "IPC-7351B"
-			(at 128.27 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "PARTREV" "K2105"
-			(at 128.27 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "SnapEDA_Link" "https://www.snapeda.com/parts/MUR460/taiwan/view-part/?ref=snap"
-			(at 128.27 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MP" "MUR460"
-			(at 128.27 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Description_1" "50ns, 4A, 600V, High Efficient Recovery Rectifier"
-			(at 128.27 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Availability" "In Stock"
-			(at 128.27 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER" "Taiwan Semiconductor"
-			(at 128.27 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(pin "C"
-			(uuid "1e4a76a8-4186-4246-a75d-e606354ae76b")
-		)
-		(pin "A"
-			(uuid "a0827f7f-0468-40a9-9441-265e4457f1cb")
-		)
-		(instances
-			(project ""
-				(path "/e1bc5ebe-0245-4788-8a28-7e348d07e41a"
-					(reference "D6")
 					(unit 1)
 				)
 			)
@@ -10664,6 +10569,76 @@
 			(project "flyback"
 				(path "/e1bc5ebe-0245-4788-8a28-7e348d07e41a"
 					(reference "#PWR016")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "TCLib:C")
+		(at 22.86 176.53 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e60dbffa-2cca-4df4-8b0c-204bd845a752")
+		(property "Reference" "C13"
+			(at 26.67 175.2599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "47p"
+			(at 26.67 177.7999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TCLib:C_5mm"
+			(at 6.35 173.228 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 22.86 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 5.588 168.656 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "59f2bef6-03f2-4814-aaf5-ec23cc64aaad")
+		)
+		(pin "1"
+			(uuid "d843369c-6357-410b-961b-5a49ae73f288")
+		)
+		(instances
+			(project ""
+				(path "/e1bc5ebe-0245-4788-8a28-7e348d07e41a"
+					(reference "C13")
 					(unit 1)
 				)
 			)
