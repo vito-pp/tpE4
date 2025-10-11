@@ -2100,6 +2100,124 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "TCLib:Connector_3"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at -7.874 -2.032 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Connector_3"
+				(at -0.254 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "TCLib:PinHeader_1x03_P2.54mm_Vertical"
+				(at 0.254 8.128 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 -1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 -1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Connector_3_0_1"
+				(rectangle
+					(start -1.524 3.81)
+					(end 1.778 -3.81)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Connector_3_1_1"
+				(pin passive line
+					(at -2.54 2.54 0)
+					(length 3.175)
+					(name "3"
+						(effects
+							(font
+								(size 0.635 0.635)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 0.635 0.635)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -2.54 0 0)
+					(length 3.175)
+					(name "2"
+						(effects
+							(font
+								(size 0.635 0.635)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 0.635 0.635)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -2.54 -2.54 0)
+					(length 3.175)
+					(name "1"
+						(effects
+							(font
+								(size 0.635 0.635)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 0.635 0.635)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "TCLib:R"
 			(pin_numbers
 				(hide yes)
@@ -3993,6 +4111,16 @@
 	)
 	(wire
 		(pts
+			(xy 193.04 144.78) (xy 193.04 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "00fdce3d-883a-43dc-9998-aa00dea903f6")
+	)
+	(wire
+		(pts
 			(xy 187.96 105.41) (xy 187.96 119.38)
 		)
 		(stroke
@@ -4200,6 +4328,16 @@
 			(type default)
 		)
 		(uuid "1ae6bb32-bb65-4041-b17f-4239413d6936")
+	)
+	(wire
+		(pts
+			(xy 198.12 143.51) (xy 203.2 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1b685be4-73a7-473f-bbce-4189aa125151")
 	)
 	(wire
 		(pts
@@ -5003,6 +5141,16 @@
 	)
 	(wire
 		(pts
+			(xy 198.12 144.78) (xy 198.12 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "899540d5-710f-4f21-81cf-94fac9049264")
+	)
+	(wire
+		(pts
 			(xy 91.44 33.02) (xy 104.14 33.02)
 		)
 		(stroke
@@ -5140,16 +5288,6 @@
 			(type default)
 		)
 		(uuid "97d5029b-8c95-48c9-99d9-eebb08291662")
-	)
-	(wire
-		(pts
-			(xy 35.56 63.5) (xy 52.07 63.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "98caa32a-2640-407c-a59b-166b4bcbd07d")
 	)
 	(wire
 		(pts
@@ -5340,6 +5478,16 @@
 			(type default)
 		)
 		(uuid "acac198f-4559-4065-aac2-2e494aabd2b6")
+	)
+	(wire
+		(pts
+			(xy 187.96 143.51) (xy 193.04 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ae58b826-d517-45f5-af81-2d348dd095db")
 	)
 	(wire
 		(pts
@@ -5563,6 +5711,16 @@
 	)
 	(wire
 		(pts
+			(xy 195.58 140.97) (xy 195.58 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d2d1da61-96cb-430e-8a67-5a7fb4df3c59")
+	)
+	(wire
+		(pts
 			(xy 41.91 151.13) (xy 41.91 160.02)
 		)
 		(stroke
@@ -5603,7 +5761,7 @@
 	)
 	(wire
 		(pts
-			(xy 27.94 63.5) (xy 33.02 63.5)
+			(xy 27.94 63.5) (xy 52.07 63.5)
 		)
 		(stroke
 			(width 0)
@@ -5969,6 +6127,28 @@
 			)
 		)
 	)
+	(global_label "Vrealim"
+		(shape input)
+		(at 203.2 143.51 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "2dcebf9d-274f-4028-8922-e949562ca9cf")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 213.2609 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "Vref"
 		(shape input)
 		(at 153.67 161.29 0)
@@ -6147,6 +6327,28 @@
 	)
 	(global_label "16V"
 		(shape input)
+		(at 187.96 143.51 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "5d4779e5-036d-49ad-8a29-cd0ccff719f2")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 181.4672 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "16V"
+		(shape input)
 		(at 187.96 27.94 0)
 		(fields_autoplaced yes)
 		(effects
@@ -6255,6 +6457,28 @@
 			)
 		)
 	)
+	(global_label "Vcol"
+		(shape input)
+		(at 195.58 140.97 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "82d1e170-aa45-4432-bbf5-89fa51a0a913")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 202.5566 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "Vref"
 		(shape input)
 		(at 233.68 144.78 0)
@@ -6299,7 +6523,7 @@
 			)
 		)
 	)
-	(global_label "16V"
+	(global_label "Vcol"
 		(shape input)
 		(at 27.94 63.5 180)
 		(fields_autoplaced yes)
@@ -6311,7 +6535,7 @@
 		)
 		(uuid "90fe1662-7b9a-42bc-86bb-fab30c36500e")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 21.4472 63.5 0)
+			(at 20.9634 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9151,76 +9375,6 @@
 		)
 	)
 	(symbol
-		(lib_id "TCLib:Connector_2")
-		(at 34.29 66.04 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "8213a6f2-f1c6-4bf1-aeff-e3a93daef9ee")
-		(property "Reference" "J10"
-			(at 38.1 64.8969 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Connector_2"
-			(at 38.1 67.4369 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TCLib:PinHeader_1x02_P2.54mm_Vertical"
-			(at 38.608 65.532 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 34.29 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 34.29 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "86572628-22f3-4ad6-83fd-f959e5d1c0d9")
-		)
-		(pin "1"
-			(uuid "d1178431-e585-4971-bc01-5f2358c53a72")
-		)
-		(instances
-			(project "flybackkoki"
-				(path "/e1bc5ebe-0245-4788-8a28-7e348d07e41a"
-					(reference "J10")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "TCLib:C")
 		(at 160.02 151.13 270)
 		(unit 1)
@@ -11394,6 +11548,79 @@
 			(project "flybackkoki"
 				(path "/e1bc5ebe-0245-4788-8a28-7e348d07e41a"
 					(reference "J3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "TCLib:Connector_3")
+		(at 195.58 147.32 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f30bf185-bcd7-4424-abcd-4a35e60d9997")
+		(property "Reference" "J10"
+			(at 200.66 146.1769 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Connector_3"
+			(at 200.66 148.7169 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TCLib:PinHeader_1x03_P2.54mm_Vertical"
+			(at 203.708 147.574 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 194.31 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 194.31 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "f19e0c31-15b2-46ae-8d54-0d088c6049e9")
+		)
+		(pin "1"
+			(uuid "81409f7a-e2ca-4fd9-a67b-2c7537b215a6")
+		)
+		(pin "3"
+			(uuid "970dd591-86d6-4270-9171-978a3228c18e")
+		)
+		(instances
+			(project ""
+				(path "/e1bc5ebe-0245-4788-8a28-7e348d07e41a"
+					(reference "J10")
 					(unit 1)
 				)
 			)
