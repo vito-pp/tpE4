@@ -12,3 +12,4 @@ fp-info-cache
 *.op.raw
 *.raw
 *.log
+*.net
