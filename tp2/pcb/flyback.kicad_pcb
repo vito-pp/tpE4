@@ -22468,6 +22468,17 @@
 			(uuid "911200c4-6002-4baf-89ff-bb9d4bba08c8")
 		)
 		(embedded_fonts no)
+		(model "${KIPRJMOD}/components/MUR160/MUR160.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 -0 -0)
+			)
+		)
 	)
 	(footprint "TCLib:TO-18-3"
 		(layer "F.Cu")
