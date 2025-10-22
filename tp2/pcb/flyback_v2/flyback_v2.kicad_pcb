@@ -1819,6 +1819,17 @@
 			(uuid "e2ccd526-3512-48b1-8a12-13edb2c50aed")
 		)
 		(embedded_fonts no)
+		(model "/home/vito/Documents/facu/4y/2Q/E4/tps/tp2/pcb/components/6A20G/6A20G.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 -0 -0)
+			)
+		)
 	)
 	(footprint "TCLib:C_5mm"
 		(layer "F.Cu")
@@ -11467,7 +11478,7 @@
 		(uuid "7cdc1c2f-ef9e-43bd-91a4-86e4742366fa")
 		(at 229.35 101.66 -90)
 		(property "Reference" "D5"
-			(at -10.945 1.93 180)
+			(at -10.945 1.93 0)
 			(layer "F.SilkS")
 			(uuid "d1d2079c-0cbd-4a0e-8fe2-182bc51c1bf6")
 			(effects
@@ -11917,6 +11928,17 @@
 			(uuid "0c429efc-6023-4e79-8563-65f9d64f4d20")
 		)
 		(embedded_fonts no)
+		(model "/home/vito/Documents/facu/4y/2Q/E4/tps/tp2/pcb/components/MUR160/MUR160.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 -0 -0)
+			)
+		)
 	)
 	(footprint "TCLib:R_0.125W"
 		(layer "F.Cu")
@@ -21396,6 +21418,17 @@
 			(uuid "911200c4-6002-4baf-89ff-bb9d4bba08c8")
 		)
 		(embedded_fonts no)
+		(model "/home/vito/Documents/facu/4y/2Q/E4/tps/tp2/pcb/components/MUR160/MUR160.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 -0 -0)
+			)
+		)
 	)
 	(footprint "TCLib:TO-18-3"
 		(layer "F.Cu")

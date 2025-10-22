@@ -1,0 +1,5 @@
+- Vrms = 50 --> Vin = 72.2 V
+- La oscilacion en Vdrain es de 1.923 MHz. en discontinuo
+- La oscilacion en Vdrain es de 1.724 MHz. en bournddary
+- Vout en disc dio 4 V y en boundary 2.3 V
+- Tension del diodo en directa da 0.6 V
